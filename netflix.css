@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo #img {
+    height: 155px;
+}
+
+.search {
+    height: 70px;
+    width: 40%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .searchbar {
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    ;
+}
+
+.searchbox {
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+}
+
+.searchicon {
+    height: 40px;
+    mix-blend-mode: darken;
+}
+
+
+/* Movies css */
+
+.movies {
+    width: 100%;
+    padding: 50px 5%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+#imgs {
+    height: 350px;
+}
+
+.movei {
+    width: 22%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.poster {
+    width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: .5;
+    transition: 3s ease;
+    cursor: pointer;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.vedio {
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+
+.details {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    row-gap: 15px;
+}
